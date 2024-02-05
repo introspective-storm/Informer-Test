@@ -13,4 +13,4 @@ train = df[testSplit+1:nrow(df), :]
 
 #writing split data back to csv
 CSV.write("data/appleTest.csv", test)
-CSV.write("data/aapleTrain.csv", train)
+CSV.write("data/appleTrain.csv", train)
